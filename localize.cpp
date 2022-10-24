@@ -545,7 +545,7 @@ extern char g_pszPlayOneRealmOnlyMessage[]	=
 	extern char g_pszOptionsMenu_Audio[]						= "AUDIO";
 	extern char g_pszOptionsMenu_Controls[]					= "CONTROLES";
 	extern char g_pszOptionsMenu_Multiplayer[]				= "MULTIPLAYER";
-	extern char g_pszOptionsMenu_Performance[]				= "PERFORMANCE";
+	extern char g_pszOptionsMenu_Performance[]				= "OTIMIZACAO"; // Translated "PERFORMANCE" option to "OTIMIZACAO"
 	extern char g_pszOptionsMenu_Difficulty[]					= "DIFICULDADE";
 	extern char g_pszOptionsMenu_Crosshair[]					= "MIRA";
 #ifdef KID_FRIENDLY_OPTION
@@ -588,7 +588,7 @@ extern char g_pszPlayOneRealmOnlyMessage[]	=
 
 	extern char g_pszJoystickSetupMenu_Title[]				= "CONFIG. DO X CONTROLE";
 
-	extern char g_pszPerformanceMenu_Title[]					= "PERFORMANCE";
+	extern char g_pszPerformanceMenu_Title[]					= "OTIMIZACAO"; // Translated "PERFORMANCE" title to "OTIMIZACAO"
 	extern char g_pszPerformanceMenu_Transparency[]			= "TRANSPARENCIA";
 	extern char g_pszPerformanceMenu_3dLighting[]			= "ILUMINACAO 3D";
 	extern char g_pszPerformanceMenu_Particles[]				= "PARTICULAS";
@@ -1034,9 +1034,9 @@ extern char g_pszPlayOneRealmOnlyMessage[]	=
 
 extern char* g_apszScoreDisplayText[CRealm::TotalScoringModes] = 
 	{
-	"      Populacao %d                        Hostis %d   Matou %d (%d%% / %d%%)",	// Standard
-	" Tempo Restante %d:%2.2d                                Vitimas %d",				// Timed
-	" Tempo Restante %d:%2.2d            Vitimas %d               Restando %d / %d",		// TimedGoal
+	"      Populacao: %d                                     Hostis: %d   Matou %d (%d%% / %d%%)",	// Standard // Added more space between the hud to try and match the original = !! needs testing !! -- gabsF
+	" Tempo Restante %d:%2.2d                                Vitimas: %d",				// Timed
+	" Tempo Restante %d:%2.2d                   Vitimas %d               Restando %d / %d",		// TimedGoal
 	" Tempo Restante %d:%2.2d",																	// TimedFlag
 	" Vitimas %d                     Restando %d            Tempo Gasto %d:%2.2d",// Goal
 	" Tempo Gasto %d:%2.2d",																		// CaptureFlag
